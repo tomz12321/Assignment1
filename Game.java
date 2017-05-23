@@ -205,7 +205,18 @@ public class Game
        }
        return winner;
     }
-    
+
+    /**
+     *  Static Method to setup a main method
+     *
+     *  @param arg
+     */
+    public static void main(String[] arg)
+    {
+        Game game1 = new Game();
+        game1.start();
+    }
+
     private void movement(Player player,int move) //method to make players movement
     {
        //Player throw a dice and make movement
